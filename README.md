@@ -1,26 +1,43 @@
-# Laravel CRUD Project
+# Laravel E-Commerce Project
 
-## Description
-This is a basic Laravel project where I implemented CRUD operations.
+A simple Laravel-based E-Commerce application where users can browse products category-wise and subcategory-wise, add products to the cart, and place orders.
+
+---
 
 ## Features
-- Add new records
-- View records
-- Update records
-- Delete records
+
+- View products category-wise
+- View products subcategory-wise
+- Product details page
+- Add to cart
+- Update cart quantity
+- Remove products from cart
+- Place order
+- User authentication
+- Order management
+- Responsive design
+
+---
 
 ## Technologies Used
-- Laravel
+
 - PHP
+- Laravel
 - MySQL
-- HTML, CSS
+- HTML
+- CSS
+- Bootstrap
+- JavaScript
+- Blade Template Engine
 
-## How to Run
-1. Clone the repository
-2. Run composer install
-3. Setup .env file
-4. Run php artisan migrate
-5. Run php artisan serve
+---
 
-## Author
-Aarti Chavda
+# User Module
+
+- User Registration & Login
+- Browse Categories
+- Browse Subcategories
+- View Products
+- Add to Cart
+- Checkout & Place Order
+- View Orders
